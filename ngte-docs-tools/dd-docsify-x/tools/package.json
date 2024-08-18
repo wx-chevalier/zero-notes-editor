@@ -1,0 +1,37 @@
+{
+  "name": "@m-fe/docsify-x",
+  "version": "0.0.11",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "docsify-x-auto-sidebar": "./bin/docsify-auto-sidebar.js",
+    "docsify-x-init": "./bin/docsify-init.js",
+    "generate-x-ts-docs": "./bin/generate-ts-docs.js",
+    "docsify-sync-to-hugo": "./bin/docsify-sync-to-hugo.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ts": "ts-node"
+  },
+  "devDependencies": {
+    "@m-fe/app-config": "^0.7.1",
+    "@m-fe/tsconfig": "^0.0.4",
+    "@types/jest": "^24.0.11",
+    "@types/mkdirp": "^0.5.2",
+    "@types/node": "^14.14.9",
+    "@types/yargs": "^12.0.11",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@microsoft/api-extractor-model": "^7.0.28",
+    "@microsoft/ts-command-line": "^4.2.3",
+    "colors": "^1.3.3",
+    "fs-extra": "^9.0.1",
+    "mkdirp": "^0.5.1",
+    "yargs": "^13.2.2",
+    "walk-sync": "^0.3.2"
+  },
+  "resolutions": {
+    "@types/react": "*"
+  }
+}
